@@ -1,0 +1,54 @@
+name = Anchor
+description = Anchor theme, developed by <a href="http://tabvn.com/">Tabvn</a>.
+core = 7.x
+
+stylesheets[all][] = css/font-awesome.min.css
+stylesheets[all][] = css/curtain.css
+stylesheets[all][] = css/base.css
+stylesheets[all][] = css/flexslider.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/anchor.css
+
+scripts[] = js/jquery-easing.js
+scripts[] = js/curtain.js
+scripts[] = js/tabs.js
+scripts[] = js/custom.js
+
+regions[contact_map] = Contact map
+regions[header_left] = Header left
+regions[header_right] = Header right
+regions[main_navigation] = Main navigation
+regions[sidebar]  = Sidebar
+regions[subtitle] = Page subtitle
+regions[content] = Content
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[page_top] = Page Top
+regions[page_bottom] = Page Bottom
+
+
+regions[footer_first] = Footer first column
+regions[footer_second] = Footer second column
+regions[footer_third] = Footer third column
+regions[footer_fourth] = Footer fourth column
+regions[footer] = Footer
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+
+settings[toggle_logo] = 0
+settings[toggle_name] = 1
+settings[toggle_slogan] = 0
+settings[toggle_node_user_picture] = 0
+
+settings[preloader_icon_class] = icon-anchor
+settings[show_node_title_on_full_page] = 0
+settings[header_bg] = #2980B9
+settings[footer_columns_bg] = #34495E
+settings[footer_bottom_bg] = #2C3E50
+settings[custom_theme_css] = ""
