@@ -217,9 +217,9 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'fortheartisan',
-      'username' => 'fortheartisan',
-      'password' => 'fortheartisan',
+      'database' => 'plan-b-studio',
+      'username' => 'plan-b-studio',
+      'password' => 'plan-b-studio',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
