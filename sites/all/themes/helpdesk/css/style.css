@@ -12,7 +12,11 @@
 html, body {
   height: 100%;
 }
-body { color: #555; font-family: 'Open Sans', sans-serif; font-size: 13px; font-weight: 400; line-height: 24px;}
+body { 
+	/*background-image: url("../images/planbhomeHD.jpg");*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #555; font-family: 'Open Sans', sans-serif; font-size: 13px; font-weight: 400; line-height: 24px;}
 
 @media (min-width: 1199px) {
   body {
@@ -155,7 +159,7 @@ h2.home-block-title {
 .image-background-wrapper h2.home-block-title,
 .image-background-wrapper .home-block-description,
 .image-background-wrapper .themecolor-text {
-  color: #fff;
+  color: #555;
 }
 
 .home-block-description {
@@ -200,7 +204,7 @@ thead tr th, thead tr td, tbody tr th, tbody tr td { padding: 8px; line-height: 
 } 
 
 #header {
-  background-color: #fff;
+  /*background-color: #fff;*/
   position: relative;
   z-index: 10;
   width: 100%;
@@ -208,10 +212,10 @@ thead tr th, thead tr td, tbody tr th, tbody tr td { padding: 8px; line-height: 
 
 #banner-inside { padding-top: 60px; margin-bottom: 40px; }
 #search-wrapper {
-  background: url(../images/search-region-bg.jpg) center center repeat-y;
+  /*background: url(../images/search-region-bg.jpg) center center repeat-y;*/
 }
 #search-wrapper-inner {
-  background: rgba(92,172,226,0.8);
+  /*background: rgba(92,172,226,0.8);*/
   padding: 0px;
 }
 #content-top-first-wrapper,
@@ -237,7 +241,7 @@ thead tr th, thead tr td, tbody tr th, tbody tr td { padding: 8px; line-height: 
 }
 .image-background-wrapper {
   padding: 40px 0 20px 0;
-  background: url(../images/image-region-bg.jpg) center center repeat-y;
+  /*background: url(../images/image-region-bg.jpg) center center repeat-y;*/
   color: #fff;
 }
 
@@ -2308,7 +2312,8 @@ article.node-article .comment ul.links {
   height: 60px;
   line-height: 60px;
   background: #fff;
-  border: none;
+  /*border: none;*/
+  border: 1px solid #ddd;
   border-right: 1px solid #ddd;
 }
 #views-exposed-form-knowledge-article-page button {

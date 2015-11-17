@@ -165,7 +165,7 @@ nav li ul li {
   padding-top: 155px;
 }
 .curtains li .center-block .wrapper {
-  padding-top: 0;
+  padding-top: 100px;
 }
 
 /* END NAV STYLES */
@@ -241,9 +241,12 @@ footer pre:before {
 }
 .center-block {
   position: relative;
+  padding:140px;
 }
 .hgroup {
-  display: inline-block; padding: 14px 24px 19px; border-top: 1px solid rgba(0,0,0,0.8); border-bottom: 1px solid rgba(0,0,0,0.8);
+  display: inline-block; padding: 170px 24px 19px; 
+  /*border-top: 1px solid rgba(0,0,0,0.8); 
+  border-bottom: 1px solid rgba(0,0,0,0.8);*/
 }
 #overflow-animate {
   overflow: hidden; height: 80px;
@@ -574,6 +577,20 @@ footer dd {
 }
 .asbestos {
   background: #7f8c8d;
+}
+
+.plan-b-orange {
+	background: #FF9A00;
+}
+
+.plan-b-red {
+	background: #C01F18;
+}
+.plan-b-green {
+	background: #B1CD52;
+}
+.plan-b-yellow {
+	background: #F2E52E;
 }
 
 /* END COLOURS */
