@@ -293,7 +293,8 @@ thead tr th, thead tr td, tbody tr th, tbody tr td { padding: 8px; line-height: 
 .main-content-region #main,
 .sidebar-first-region .sidebar-first-region-inner,
 .sidebar-second-region .sidebar-second-region-inner {
-  padding: 60px 0 40px;
+  /*padding: 60px 0 40px;*/
+  padding: 10px 0 40px;
 }
 body.sidebar-second .main-content-region {
   padding-right: 0;
